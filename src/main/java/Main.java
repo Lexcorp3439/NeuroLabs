@@ -2,6 +2,7 @@ import labs.lab0.Lab0;
 import labs.lab2.parts.part1.Part1;
 import nnexamples.SimpleApprox;
 import nnexamples.SimpleClassifier;
+import nnexamples.TwoClassClassifier;
 import nnexamples.XorTest;
 
 public class Main {
@@ -18,10 +19,13 @@ public class Main {
 //        var xor = new XorTest();
 //        xor.build();
 
-        var apprx = new SimpleApprox();
-        apprx.build();
+//        var apprx = new SimpleApprox();
+//        apprx.build();
 
 //        var classifier = new SimpleClassifier();
 //        classifier.build();
+
+        var class2 = new TwoClassClassifier();
+        class2.build();
     }
 }

@@ -78,7 +78,7 @@ public class Part2 {
         XYChartUtils.save(chart, "./draw1", 1000);
     }
 
-    private void draw3(double[][] sample, int[] res) {
+    public void draw3(double[][] sample, int[] res) {
         // data preparation
         int xCount = 0, xI = 0, oI = 0;
         for (int re : res) {
